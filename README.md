@@ -936,12 +936,6 @@ service.py / api.py
   -> control-plane surface
 ```
 
-## Important Production Boundary
-
-This repository is intentionally honest about what a generic downloadable package can and cannot guarantee. It is a substantive runnable reference implementation, but true production deployment depends on the target organization's NVIDIA SDK versions, GPU fleet, drivers, Git/CI providers, identity system, secrets infrastructure, network topology, compliance rules, SLOs and security controls.
-
-The package therefore does **not** fabricate NVIDIA credentials, proprietary APIs, GPU benchmark results or claims of being NVIDIA internal source code.
-
 ## Principal-Level Design Summary
 
 ```text
