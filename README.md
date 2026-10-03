@@ -1488,10 +1488,6 @@ Audit + OTel + Outcome Feedback
 [ ] backup/restore/DR
 ```
 
-# Important implementation boundary
-
-This package is an independent, runnable, production-oriented **reference implementation**, not NVIDIA proprietary source. The local path intentionally uses mock NVIDIA/OpenShell/MCP responses where real execution would require NVIDIA software, compatible GPUs, organization credentials, policies and infrastructure. The documentation explicitly identifies these integration points rather than fabricating them.
-
 # Final design rule
 
 ```text
