@@ -1,0 +1,1 @@
+{"tenant_id":"engineering","principal_id":"principal@example","repository":"example/service","goal":"Investigate a GPU performance regression, produce a candidate fix, test and benchmark it, then prepare a pull request","context":{"branch":"main"}}

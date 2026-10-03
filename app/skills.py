@@ -1,0 +1,2 @@
+SKILLS={"research.code_search":("research","READ"),"debug.root_cause":("debug","READ"),"code.patch":("coding","WRITE"),"test.unit":("test","COMPUTE"),"test.integration":("test","COMPUTE"),"simulate.physics":("simulation","COMPUTE"),"simulate.quantum":("simulation","COMPUTE"),"optimize.dataframe":("optimization","COMPUTE"),"optimize.route":("optimization","COMPUTE"),"profile.cuda":("optimization","COMPUTE"),"git.pr.create":("coding","HIGH")}
+def list_skills():return [{"name":k,"agent":v[0],"risk":v[1]} for k,v in SKILLS.items()]
